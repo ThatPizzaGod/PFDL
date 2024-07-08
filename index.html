@@ -3,12 +3,10 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=1024" />
-        <meta property="og:title" content="2 Player List" />
-        <meta property="og:description" content="A collection of the hardest 2-player levels that were beaten solo" />
-        <meta property="og:url" content="https://2plist.github.io/2plist/#/" />
-        <meta property="og:image" content="2plisticon.png" />
-        <title>2 Player List</title>
-        <link rel="icon" href="2plisticon.png" />
+        <title>Tiny Pemonlist</title>
+
+        <!-- Replace your server icon by uploading an image file named "list_icon.png"-->
+        <link rel="icon" href="list_icon.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
@@ -39,17 +37,17 @@
     <body id="app">
         <header :class="{ dark: store.dark }">
             <div class="logo">
-                <h2>2plist</h2>
+                <h2>Tiny Pemonlist</h2>
                 <p>v1.0.0</p>
             </div>
             <nav class="nav">
-                <router-link class="nav__tab" to="/">
+                <router-link class="nav__tab" to="">
                     <span class="type-label-lg">List</span>
                 </router-link>
-                <router-link class="nav__tab" to="/leaderboard">
+                <router-link class="nav__tab" to="leaderboard">
                     <span class="type-label-lg">Leaderboard</span>
                 </router-link>
-                <router-link class="nav__tab" to="/roulette">
+                <router-link class="nav__tab" to="roulette">
                     <span class="type-label-lg">Roulette</span>
                 </router-link>
                 <div class="nav__actions">
@@ -58,16 +56,18 @@
                         @click.prevent="store.toggleDark()"
                     >
                         <img
-                            :src="store.dark ? 'assets/light.svg' : 'assets/dark.svg'"
+                            :src="store.dark ? '/assets/light.svg' : '/assets/dark.svg'"
                             alt=""
                         />
                     </button>
-                    <a class="nav__icon" href="https://discord.gg/carQUB7JN2">
+                    <!-- Replace the '#' with your discord server's invite-->
+                    <a class="nav__icon" href="https://discord.gg/MKSUrAc6Ye">
                         <img src="assets/discord.svg" alt="Discord Logo" />
                     </a>
+                    <!-- List record submission form, add a link to replace the '#' when putting a link to your list submission form-->
                     <a
                         class="nav__cta type-label-lg"
-                        href="https://forms.gle/NxTuNCJm2kPswrBa8"
+                        href="https://forms.gle/dkTTAVUt5qH1m3SU9"
                         target="_blank"
                         >Submit Record</a
                     >
