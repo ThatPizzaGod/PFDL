@@ -1,0 +1,20 @@
+{
+    "id": "wait",
+    "name": "Tiny",
+    "author": "SpaceUK",
+    "verifier": "SpaceUK",
+    "desc": "easy thingy",
+    "percentToQualify": "100",
+    "handcam": 1,
+    "hacked": false,
+    "unrated": true,
+    "verificationVid": "https://youtube.com",
+    "password": "Free To Copy",
+    "records": [
+        {
+			"percent": "100",
+			"link": "https://www.youtube.com/",
+			"user": "Silent Clubstep (posted on discord)"
+		}
+    ]
+}
