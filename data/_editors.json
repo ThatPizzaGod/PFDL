@@ -1,57 +1,13 @@
 [
     {
         "role": "owner",
-        "name": "Motor8",
-        "link": "https://www.youtube.com/@motor7815"
+        "name": "SpaceUK",
+        "link": "https://www.youtube.com/@Squarestheperson"
     },
     {
-        "role": "admin",
-        "name": "tomm",
-        "link": "https://youtube.com/@tommGMD"
-    },
-    {
-        "role": "helper",
-        "name": "ATF",
-        "link": "https://www.youtube.com/channel/UCwBU8ulosh1IyNHoaLWdrwg"
-    },
-    {
-        "role": "helper",
-        "name": "Cr1msoN",
-        "link": "https://www.youtube.com/@Cr1msoNGD"
-    },
-    {
-        "role": "helper",
-        "name": "gBen",
-        "link": "https://www.youtube.com/@g.Ben."
-    },
-    {
-        "role": "helper",
-        "name": "gdbatle1",
-        "link": "https://www.youtube.com/@gdbatle9967"
-    },
-    {
-        "role": "helper",
-        "name": "Graydient7",
-        "link": "https://www.youtube.com/channel/UCUfKLS6nwu1wRWFIpzUIOKQ"
-    },
-    {
-        "role": "helper",
-        "name": "Ketchup",
-        "link": "https://www.youtube.com/@Ketchup-Packetto"
-    },
-    {
-        "role": "helper",
-        "name": "Rei",
-        "link": "https://youtube.com/@aonsey"
-    },
-    {
-        "role": "helper",
-        "name": "||Zest||",
-        "link": "https://www.youtube.com/@Zestal"
-    },
-    {
-        "role": "dev",
-        "name": "Prometheus",
-        "link": "https://www.youtube.com/c/PrometheusAlt"
+        "role": "List Admin",
+        "name": "Nick",
+        "link": "https://www.youtube.com"
     }
+   
 ]
