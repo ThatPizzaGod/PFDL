@@ -8,5 +8,25 @@
         "role": "admin",
         "name": "Nick",
         "link": "https://www.youtube.com/@nickgiarovel"
+    },
+    {
+        "role": "admin",
+        "name": "Kaj",
+        "link": "https://www.youtube.com/"
+    },
+    {
+        "role": "admin",
+        "name": "Vix",
+        "link": "https://www.youtube.com/"
+    },
+    {
+        "role": "admin",
+        "name": "Silent Clubstep",
+        "link": "https://www.youtube.com/"
+    },
+    {
+        "role": "admin",
+        "name": "Tfluffy",
+        "link": "https://www.youtube.com/"
     }
 ]
